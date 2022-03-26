@@ -23,4 +23,19 @@ int main(){
 	scanf ("%f", &bbm.liter);
 	cout<<"Masukkan nama pelanggan :";
 	cin>>bbm.nama;
+	
+	printf ("\n\n\n\n");
+	printf ("SPBU COCO \n");
+	printf ("Pertamina 41.551.01\nLempuyangan, JL. Kompol Maksum Jogjakarta\nTlp. (021) 150000\n");
+	cout<<dt<<endl;
+	printf ("---------------------------------------")
+	
+	{
+		if (bbm.n == 1)
+		{
+			bbm.hasil = 9000 * bbm.liter;
+			printf ("Jenis Bensin : Pertamax\n");
+		}
+		else
+	
 }
