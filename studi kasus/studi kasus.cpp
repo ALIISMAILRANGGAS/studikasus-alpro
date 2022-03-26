@@ -37,5 +37,19 @@ int main(){
 			printf ("Jenis Bensin : Pertamax\n");
 		}
 		else
-	
+		if (bbm.n == 2)
+		{
+			bbm.hasil = 7000 * bbm.liter;
+			printf ("Jenis Bensin   : Pertalite\n");
+		}
+	}
+	cout<<"Nama Pelanggan : "<<bbm.nama<<endl;
+	printf ("Liter          : %.2f\n", bbm.liter);
+	printf ("Harga/iter     : Rp. %.f\n", bbm.hasil / bbm.liter);
+	printf ("Total          : Rp. %.f\n", bbm.hasil);
+	printf ("================================\n");
+	printf ("Terima kasih dan selamat jalan");
 }
+	
+
+	
